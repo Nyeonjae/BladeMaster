@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+
+* {
+    list-style-type: none;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #eeeeee;
+    color: #212121;
+
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form {
+
+    width: 25rem;
+    background-color: transparent;
+
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    justify-content: center;
+    padding: 1rem;
+
+
+
+}
+
+#form > h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#form > .text {
+    font-size: inherit;
+    color: #757575;
+}
+
+
+
+#select {
+    width: 100%;
+    border: 0.0625rem solid #dfdada;
+    border-radius: 0.4rem;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 0.5rem 0.4rem;
+}
+
+#select:hover {
+    border: 0.0625rem solid #bab5b5;
+}
+
+#select:focus-within {
+
+    border: 0.0625rem solid #6e6e6e;
+
+}
+
+
+
+#select > .op.--visible {}
+
+#form > .label > .input {
+    width: 100%;
+    border: 0.0625rem solid #dfdada;
+    border-radius: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 0.5rem 0.4rem;
+    outline: none;
+}
+
+#form > .label > .input:hover {
+
+    border: 0.0625rem solid #bab5b5;
+}
+
+#form > .label > .input:focus-within {
+
+    border: 0.0625rem solid #6e6e6e;
+}
+
+.area {
+    width: 100%;
+    height: 8rem;
+    border: 0.0625rem solid #dfdada;
+    border-radius: 0.4rem;
+
+    font-size: 0.9rem;
+    font-weight: 300;
+    overflow: hidden auto;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.area:hover {
+    border: 0.0625rem solid #bab5b5;
+}
+
+.area:focus-within {
+    border: 0.0625rem solid #6e6e6e;
+
+}
+
+#form > .submit {
+    background-color: #2196fa;
+    border: 0.0625rem solid #2196fa;
+    border-radius: 0.4rem;
+    color: #f2f2f2;
+    padding: 0.5rem;
+    font-size: inherit;
+    font-weight: 500;
+}
+
+#form > .submit:hover {
+    background-color: #148bf3;
+}
+#form > .submit:active {
+
+    background-color: #0475dc;
+}
+
+#form > .reset {
+    background-color: #a0a0a0;
+    border: 0.0625rem solid #a0a0a0;
+    border-radius: 0.4rem;
+    color: #f2f2f2;
+    padding: 0.5rem;
+    font-size: inherit;
+    font-weight: 500;
+}
+
+#form > .reset:hover {
+    background-color: #7e7e7e;
+}
+
+#form > .reset:active {
+    background-color: #676666;
+}
+
+
+.highlight {
+    color: #2196f3;
+}
+
+
+
+
+
